@@ -1,5 +1,5 @@
 hola paquetes
 
 function holamundo (){
-    console.log("hola")
+    console.log("modificada")
 }
