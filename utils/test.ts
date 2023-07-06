@@ -1,4 +1,4 @@
-import { add } from "ramda";
+import { add, divide } from 'ramda'
 export const prueba = () => {
-  console.log(add(2, 3));
-};
+  console.log(add(2, 3))
+}
