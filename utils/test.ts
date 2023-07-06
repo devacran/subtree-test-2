@@ -1,4 +1,3 @@
-import { add, divide } from 'ramda'
-export const prueba = () => {
-  console.log(add(2, 3))
-}
+import { map, multiply } from "ramda";
+
+export const doubleArrayValues = (arr) => map(multiply(2), arr);
